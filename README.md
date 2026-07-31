@@ -1,6 +1,8 @@
 (straight from claude)
 # Himalayan Expeditions Dataset — Column Reference
 
+Source: **The Himalayan Database** (Elizabeth Hawley / Richard Salisbury, himalayandatabase.com), redistributed on Kaggle.
+
 Four linked tables: **peaks**, **exped** (expeditions), **members**, and **refer** (bibliography). 
 
 Join keys: 
