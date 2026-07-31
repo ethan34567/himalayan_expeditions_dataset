@@ -1,9 +1,13 @@
 (straight from claude)
 # Himalayan Expeditions Dataset — Column Reference
 
-Source: **The Himalayan Database** (Elizabeth Hawley / Richard Salisbury, himalayandatabase.com), redistributed on Kaggle. Four linked tables: **peaks**, **exped** (expeditions), **members**, and **refer** (bibliography). Join keys: `peakid` links peaks ↔ exped ↔ members; `expid` links exped ↔ members ↔ refer.
+Four linked tables: **peaks**, **exped** (expeditions), **members**, and **refer** (bibliography). 
 
-Every column and every categorical value list below is confirmed directly against the actual `peaks.csv`, `exped.csv`, `members.csv`, and `refer.csv` files.
+Join keys: 
+
+&emsp; `peakid` links peaks &harr; exped &harr; members
+
+&emsp; `expid` links exped &harr; members &harr; refer.
 
 ---
 
